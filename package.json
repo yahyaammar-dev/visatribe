@@ -1,0 +1,61 @@
+{
+  "name": "visatribe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "@mui/styles": "^5.9.2",
+    "@mui/x-date-pickers": "^5.0.0-beta.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.3.0",
+    "@trendyol-js/react-carousel": "^3.0.0",
+    "concurrently": "^7.3.0",
+    "i": "^0.3.7",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.34.0",
+    "react-jss": "^10.9.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-swipeable-views": "^0.14.0",
+    "react-toastify": "^9.0.7",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "backend": "cd backend && nodemon app.js",
+    "execute": "concurrently --names 'frontend,backend' --prefix-colors 'blue,green' \"npm start\" \"npm run backend\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.3.0"
+  }
+}
